@@ -29,6 +29,12 @@ body {
       content: "";
   }
 
+  @media (max-width: 480px) {
+    &:after {
+      border-right: 0;
+    }
+  }
+  
   .Body_content {
     clear: both;
     width: 500px;
